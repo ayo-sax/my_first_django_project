@@ -1,0 +1,12 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %} Error {% endblock %}
+
+{% block content %}
+
+<h2 style='color:darkred;'>Error </h2>
+
+<p style='color:red;'> This is an Error! </p>
+<p> {{ error }} </p>
+{% endblock %}
