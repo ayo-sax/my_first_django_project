@@ -31,7 +31,5 @@ urlpatterns = [
     path('transaction-history/', views.transactionHistory, name='pump-up-transaction-history-page'),
     path('price-history/', views.priceHistory, name='pump-up-price-history-page'),
     
-    path("attendant/", views.attendant_page, name="attendant_page"),
-path("attendant/confirm/<uuid:pk>/", views.confirm_redemption, name="confirm_redemption"),
 ]
 

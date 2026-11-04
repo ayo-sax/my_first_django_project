@@ -17,9 +17,7 @@ from django.utils import timezone
 from django.utils.http import url_has_allowed_host_and_scheme
 from django.views.decorators.http import require_POST
 
-from django.contrib.auth.decorators import user_passes_test
-from django.contrib import messages
-from django.shortcuts import render
+
 
 from . import services
 from .models import FuelPrice, FuelRedemption, LitreLot, LitrePurchase, Station
